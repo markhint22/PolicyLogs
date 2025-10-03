@@ -49,7 +49,7 @@ Policy Logs is a full-stack application designed to help organizations manage, t
 - **Backend**: Django 4.2, Django REST Framework
 - **iOS**: SwiftUI, Alamofire, Keychain Services
 - **Android**: Kotlin, Jetpack Compose, Hilt, Retrofit
-- **Database**: PostgreSQL (production), SQLite (development)
+- **Database**: PostgreSQL
 - **Authentication**: Token-based authentication
 
 ## Getting Started

@@ -2,7 +2,7 @@
 import os
 
 # Test database configuration
-TEST_DATABASE_URL = os.getenv('TEST_DATABASE_URL', 'sqlite:///test_policy_logs.db')
+TEST_DATABASE_URL = os.getenv('TEST_DATABASE_URL', 'postgresql://postgres:password@localhost:5432/test_policy_logs')
 
 # API configuration for testing
 TEST_API_BASE_URL = os.getenv('TEST_API_BASE_URL', 'http://localhost:8000/api/')

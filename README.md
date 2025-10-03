@@ -179,12 +179,7 @@ python manage.py migrate
 python manage.py createsuperuser
 ```
 
-**SQLite (Development):**
-```bash
-cd backend
-python manage.py migrate
-python manage.py createsuperuser
-```
+
 
 ## 🧪 Testing
 
