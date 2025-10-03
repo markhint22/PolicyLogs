@@ -1,0 +1,51 @@
+# Test requirements for Policy Logs project
+# Install with: pip install -r tests/requirements.txt
+
+# Core testing framework
+pytest>=7.4.0
+pytest-django>=4.5.2
+pytest-cov>=4.1.0
+pytest-html>=3.2.0
+pytest-xdist>=3.3.1
+pytest-mock>=3.11.1
+
+# HTTP testing
+requests>=2.31.0
+responses>=0.23.3
+
+# Browser automation for E2E tests
+selenium>=4.11.0
+webdriver-manager>=3.9.1
+
+# Test data and fixtures
+factory-boy>=3.3.0
+faker>=19.3.1
+
+# Performance testing
+pytest-benchmark>=4.0.0
+
+# API testing
+httpx>=0.24.1
+pytest-asyncio>=0.21.1
+
+# Database testing
+pytest-postgresql>=5.0.0
+
+# Linting and code quality (for CI)
+flake8>=6.0.0
+black>=23.7.0
+isort>=5.12.0
+mypy>=1.5.0
+
+# Coverage reporting
+coverage[toml]>=7.3.0
+
+# Debugging
+pytest-pdb>=0.2.0
+pytest-sugar>=0.9.7
+
+# Environment management
+python-dotenv>=1.0.0
+
+# Mobile testing (optional)
+appium-python-client>=3.0.0

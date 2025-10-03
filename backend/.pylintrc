@@ -1,0 +1,37 @@
+[MASTER]
+load-plugins=pylint_django
+django-settings-module=policy_logs.settings
+
+[MESSAGES CONTROL]
+# Disable Django-related false positives
+disable=
+    # Django ORM false positives
+    no-member,
+    # Import order (handled by isort)
+    wrong-import-order,
+    # Too many arguments (common in Django)
+    too-many-arguments,
+    # Line length (handled by black)
+    line-too-long,
+    # Missing docstrings (can be enabled gradually)
+    missing-module-docstring,
+    missing-class-docstring,
+    missing-function-docstring,
+    # Django-specific patterns
+    unused-argument,
+    # Abstract method warnings
+    abstract-method
+
+[FORMAT]
+max-line-length=88
+
+[VARIABLES]
+# Allow Django model field names
+good-names=id,pk,_,i,j,k,ex,Run,setUp,tearDown
+
+[DESIGN]
+max-attributes=15
+max-args=8
+max-locals=20
+max-statements=60
+max-branches=15

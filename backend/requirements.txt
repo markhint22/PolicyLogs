@@ -1,0 +1,32 @@
+# Core Django packages
+Django>=4.2.0,<5.0.0
+djangorestframework>=3.14.0
+
+# CORS and security
+django-cors-headers>=4.3.0
+
+# Filtering and pagination
+django-filter>=23.0.0
+
+# Configuration
+python-decouple>=3.8
+
+# Database - PostgreSQL
+psycopg2-binary>=2.9.0
+
+# Background tasks (optional)
+# celery>=5.3.0
+# redis>=5.0.0
+
+# Web server
+gunicorn>=21.0.0
+
+# Static files
+whitenoise>=6.6.0
+
+# Image handling (using newer version for Python 3.13 compatibility)
+Pillow>=10.4.0
+
+# Development and testing
+pytest-django>=4.5.0
+coverage>=7.0.0
